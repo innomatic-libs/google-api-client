@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<application>
+
+	<definition>
+		<idname>google-api-client</idname>
+		<release>
+			<version>1.0.0-alpha</version>
+			<date>2014/01/19</date>
+			<changesfile>CHANGES</changesfile>
+		</release>
+		<description>Client library for Google APIs</description>
+		<category>libraries</category>
+		<iconfile></iconfile>
+        <dependencies>
+            <dependency>innomatic[6.2]</dependency>
+            <dependency>php[5.4.0]</dependency>
+        </dependencies>
+		<legal>
+			<author>
+				<name>Google Inc.</name>
+				<email></email>
+				<web>http://developers.google.com/api-client-library/php</web>
+			</author>
+			<copyright>Copyright 2013 Google Inc.</copyright>
+			<license>Apache-2.0</license>
+			<licensefile>LICENSE.LGPL</licensefile>
+		</legal>
+		<support>
+			<supportemail>helpdesk@innoteam.it</supportemail>
+			<bugsemail>helpdesk@innoteam.it</bugsemail>
+			<maintainer>
+				<name>Innoteam Srl</name>
+				<email>helpdesk@innoteam.it</email>
+			</maintainer>
+		</support>
+	</definition>
+
+	<components>
+
+		<extras name="google-api-client" />
+		
+        <class name="Google/Auth/Abstract.php" />
+        <class name="Google/Auth/AssertionCredentials.php" />
+        <class name="Google/Auth/Exception.php" />
+        <class name="Google/Auth/LoginTicket.php" />
+        <class name="Google/Auth/OAuth2.php" />
+        <class name="Google/Auth/Simple.php" />
+        <class name="Google/Cache/Abstract.php" />
+        <class name="Google/Cache/Apc.php" />
+        <class name="Google/Cache/Exception.php" />
+        <class name="Google/Cache/File.php" />
+        <class name="Google/Cache/Memcache.php" />
+        <class name="Google/Client.php" />
+        <class name="Google/Collection.php" />
+        <class name="Google/Config.php" />
+        <class name="Google/Exception.php" />
+        <class name="Google/Http/Batch.php" />
+        <class name="Google/Http/CacheParser.php" />
+        <class name="Google/Http/MediaFileUpload.php" />
+        <class name="Google/Http/Request.php" />
+        <class name="Google/Http/REST.php" />
+        <class name="Google/IO/Abstract.php" />
+        <class name="Google/IO/cacerts.pem" />
+        <class name="Google/IO/Exception.php" />
+        <class name="Google/IO/Stream.php" />
+        <class name="Google/Model.php" />
+        <class name="Google/Service/Adexchangebuyer.php" />
+        <class name="Google/Service/AdExchangeSeller.php" />
+        <class name="Google/Service/Admin.php" />
+        <class name="Google/Service/AdSense.php" />
+        <class name="Google/Service/AdSenseHost.php" />
+        <class name="Google/Service/Analytics.php" />
+        <class name="Google/Service/AndroidPublisher.php" />
+        <class name="Google/Service/AppState.php" />
+        <class name="Google/Service/Audit.php" />
+        <class name="Google/Service/Bigquery.php" />
+        <class name="Google/Service/Blogger.php" />
+        <class name="Google/Service/Books.php" />
+        <class name="Google/Service/Calendar.php" />
+        <class name="Google/Service/CivicInfo.php" />
+        <class name="Google/Service/Compute.php" />
+        <class name="Google/Service/Coordinate.php" />
+        <class name="Google/Service/Customsearch.php" />
+        <class name="Google/Service/Datastore.php" />
+        <class name="Google/Service/Dfareporting.php" />
+        <class name="Google/Service/Directory.php" />
+        <class name="Google/Service/DoubleClickBidManager.php" />
+        <class name="Google/Service/Doubleclicksearch.php" />
+        <class name="Google/Service/Drive.php" />
+        <class name="Google/Service/Exception.php" />
+        <class name="Google/Service/Freebase.php" />
+        <class name="Google/Service/Fusiontables.php" />
+        <class name="Google/Service/Games.php" />
+        <class name="Google/Service/GamesManagement.php" />
+        <class name="Google/Service/GroupsMigration.php" />
+        <class name="Google/Service/Groupssettings.php" />
+        <class name="Google/Service/IdentityToolkit.php" />
+        <class name="Google/Service/Licensing.php" />
+        <class name="Google/Service/Mirror.php" />
+        <class name="Google/Service/Oauth2.php" />
+        <class name="Google/Service/Orkut.php" />
+        <class name="Google/Service/Pagespeedonline.php" />
+        <class name="Google/Service/Plus.php" />
+        <class name="Google/Service/PlusDomains.php" />
+        <class name="Google/Service/Prediction.php" />
+        <class name="Google/Service/Reports.php" />
+        <class name="Google/Service/Reseller.php" />
+        <class name="Google/Service/Resource.php" />
+        <class name="Google/Service/Shopping.php" />
+        <class name="Google/Service/SiteVerification.php" />
+        <class name="Google/Service/SQLAdmin.php" />
+        <class name="Google/Service/Storage.php" />
+        <class name="Google/Service/Taskqueue.php" />
+        <class name="Google/Service/Tasks.php" />
+        <class name="Google/Service/Translate.php" />
+        <class name="Google/Service/Urlshortener.php" />
+        <class name="Google/Service/Webfonts.php" />
+        <class name="Google/Service/YouTube.php" />
+        <class name="Google/Service/YouTubeAnalytics.php" />
+        <class name="Google/Service.php" />
+        <class name="Google/Signer/Abstract.php" />
+        <class name="Google/Signer/P12.php" />
+        <class name="Google/Utils/URITemplate.php" />
+        <class name="Google/Utils.php" />
+        <class name="Google/Verifier/Abstract.php" />
+        <class name="Google/Verifier/Pem.php" />
+
+	</components>
+	
+</application>
